@@ -116,10 +116,12 @@ h1 {
   
   /* Style untuk gambar */
   img {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    max-width: 300px;
+    max-height: 400px;
     margin-bottom: 20px;
     border-radius: 5px;
+    object-position: center;
   }
   
   /* Style untuk judul sub-bab */
